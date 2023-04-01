@@ -249,5 +249,5 @@ txt2('Gmail', 'jarihant130@gmail.com')
 st.markdown('''
 ## Contact
 ''')
-txt2('Address', 'Flat No-S01, 2nd Floor, Plot No-16, Hansa Apartment,-5, Ward No-38, Ashoka Garden, Bhopal, (M.P.) 462023')
+txt2('Address', 'Flat No-S01, 2nd Floor, Plot No-16, Hansa Apartment-5, Ward No-38, Ashoka Garden, Bhopal, (M.P.) 462023')
 txt2('WhatsApp', 'https://web.whatsapp.com/send?phone=919685790871')
