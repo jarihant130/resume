@@ -201,7 +201,7 @@ st.markdown('''
 - It also helps to download YouTube vidoes, generate passwords, trim videos, Online Python Interpreter and much more. 
 ''')
 
-txt('**Technical Writer**, [Data Professor Blog](https://medium.com/@jarihant130) on Medium.com',
+txt('**Technical Writer**, [Arihant Jain](https://medium.com/@jarihant130) on Medium.com',
 '2019-Present')
 st.markdown('''
 - Written `4` technical blogs on Data Science, Data Science Libraries and Python.
