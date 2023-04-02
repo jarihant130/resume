@@ -52,7 +52,7 @@ st.image(image,
          width=100, 
          use_column_width=True)
 
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Summary", "Education", "Work Experience", "Certifications", "Skills", "Social Media", "Contacts"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(["Summary", "Education", "Work Experience", "Certifications", "Skills", "Awards & Recognitions", "Social Media", "Contacts"])
 
 with tab1:
     st.info('''
@@ -80,6 +80,7 @@ with tab3:
     - Monitored project progress and made adjustments as needed to ensure on-time and within-budget completion.
     - Successfully upgrading Murex from version 35 to 55, ensuring seamless integration with existing systems and minimizing downtime.
     - Preparing test cases for testing new Murex environment.
+    - Got [Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link), and cash award (in first Quarter)
     ''')
 
     txt('**Python Developer**, Intel Project (Content Management Team), Infosys Ltd., Pune',
@@ -199,6 +200,15 @@ with tab5:
     txt3('Model deployment', '`streamlit`')
 
 with tab6:
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.write('Infosys Ltd.')
+        st.write('Aurionpro Solution Ltd.')
+    with col2:
+        st.write('[Insta Awards](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=share_link)')
+        st.write('[Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link)')
+
+with tab7:
     txt2('LinkedIn', 'https://www.linkedin.com/in/arihantjain130/')
     txt2('Twitter', 'http://twitter.com/@jarihant130')
     txt2('GitHub', 'https://github.com/jarihant130')
@@ -207,7 +217,7 @@ with tab6:
     txt2('Telegram', 'https://t.me/studymaterial_1')
     txt2('Gmail', 'jarihant130@gmail.com')
 
-with tab7:
+with tab8:
     txt2('Address', 'Flat No-S01, 2nd Floor, Plot No-16, Hansa Apartment-5, Ward No-38, Ashoka Garden, Bhopal, (M.P.) 462023')
     txt2('WhatsApp', '[+91-9685790871](https://web.whatsapp.com/send?phone=919685790871)')
 
