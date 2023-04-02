@@ -5,7 +5,7 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 # st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
-    
+
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">', unsafe_allow_html=True)
 
 #####################
@@ -43,7 +43,7 @@ def txt4(a, b, c):
 #####################
 # Header 
 st.write('''
-# Arihant Jain, Murex Consultant.
+# Arihant Jain, *Murex Consultant*
 ##### *Resume* 
 ''')
 
@@ -74,7 +74,12 @@ with tab3:
     txt('**MxML and Market Data Developer**, State Bank of India, Aurionpro Pvt. Ltd., Mumbai',
 'JUL 22-Present')
     st.markdown('''
-    - 
+    - Led a team of four members in developing new workflows and addressing production issues in Murex for SBI client.
+    - Conducted thorough analysis of existing workflows and production issues, identifying pain points and areas for improvement.
+    - Developed detailed project plan, including scope, timelines, milestones, and deliverables, and ensured effective communication and collaboration among team members.
+    - Monitored project progress and made adjustments as needed to ensure on-time and within-budget completion.
+    - Successfully upgrading Murex from version 35 to 55, ensuring seamless integration with existing systems and minimizing downtime.
+    - Preparing test cases for testing new Murex environment.
     ''')
 
     txt('**Python Developer**, Intel Project (Content Management Team), Infosys Ltd., Pune',
@@ -184,7 +189,7 @@ with tab4:
     txt4('[PCEP-30-01]', 'PCEP – Certified Entry-Level Python Programmer', 'https://verify.openedg.org/?id=oUQc.GyYp.eUV9')
 
 with tab5:
-    txt3('Financial Tool', '**`Murex`**')
+    txt3('Financial Tool', '**`Murex`**(`MxML`, `Market Data`, `VaR`) `module`')
     txt3('Programming', '`Python`, `Angular 6`')
     txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
     txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
