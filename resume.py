@@ -225,6 +225,7 @@ with tab7:
         st.markdown(
             f'<a href="https://www.linkedin.com/in/arihantjain130/"><img src="data:image/png;base64,{b64encode(gitHub).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
     with col4:
+        pass
 #         st.markdown(
 #             f'<a href="https://www.youtube.com/channel/UCeC088dyJsXK_L1bCHZDcjA"><img src="data:image/png;base64,{b64encode(youtube).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
     with col5:
