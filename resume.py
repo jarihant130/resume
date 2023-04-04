@@ -5,7 +5,6 @@ from base64 import b64encode
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-# st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">', unsafe_allow_html=True)
 
@@ -49,7 +48,7 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = open('dp.png', "rb").read()
+image = open('media/dp.png', "rb").read()
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;"><img src="data:image/png;base64,{b64encode(image).decode()}" style="text-align:center; width:200px;height:200px;"></div>',
@@ -100,7 +99,7 @@ with tab3:
     - Team handles the software domain.
     - Got [Insta Award](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=sharing) and cash award (in 3 months)
     ''')
-    txt('**Deveploer**, Data Science Python Project, Infosys Ltd., Pune',
+    txt('**Developer**, Data Science Python Project, Infosys Ltd., Pune',
     'APR 20-NOV 20')
     st.markdown('''
     - Performing data analysis and feature engineering to create additional attributes which will be used in predictive models.
@@ -205,17 +204,40 @@ with tab5:
 with tab6:
     txt3('Infosys Ltd.', '[Insta Awards](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=share_link)')
     txt3('Aurionpro Solution Ltd.', '[Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link)')
-
+    
 with tab7:
-    txt2('LinkedIn', 'https://www.linkedin.com/in/arihantjain130/')
-    txt2('Twitter', 'http://twitter.com/@jarihant130')
-    txt2('GitHub', 'https://github.com/jarihant130')
-    txt2('YouTube', 'https://www.youtube.com/channel/UCeC088dyJsXK_L1bCHZDcjA')
-    txt2('Medium', 'https://jarihant130.medium.com/')
-    txt2('Telegram', 'https://t.me/studymaterial_1')
-    txt2('Gmail', 'jarihant130@gmail.com')
+    col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
+    linkedin = open('media/Linkedin.png', "rb").read()
+    twitter = open('media/Twitter.png', "rb").read()
+    gitHub = open('media/Github.png', "rb").read()
+    youtube = open('media/YouTube.png', "rb").read()
+    medium = open('media/Medium.png', "rb").read()
+    telegram = open('media/Telegram.png', "rb").read()
+    gmail = open('media/Gmail.png', "rb").read()
+    
+    with col1:
+        st.markdown(
+            f'<a href="https://www.linkedin.com/in/arihantjain130/"><img src="data:image/png;base64,{b64encode(linkedin).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+    with col2:
+        st.markdown(
+            f'<a href="http://twitter.com/@jarihant130"><img src="data:image/png;base64,{b64encode(twitter).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+    with col3:
+        st.markdown(
+            f'<a href="https://www.linkedin.com/in/arihantjain130/"><img src="data:image/png;base64,{b64encode(gitHub).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+    with col4:
+        st.markdown(
+            f'<a href="https://www.youtube.com/channel/UCeC088dyJsXK_L1bCHZDcjA"><img src="data:image/png;base64,{b64encode(youtube).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+    with col5:
+        st.markdown(
+            f'<a href="https://jarihant130.medium.com/"><img src="data:image/png;base64,{b64encode(medium).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+    with col6:
+        st.markdown(
+            f'<a href="https://t.me/studymaterial_1"><img src="data:image/png;base64,{b64encode(telegram).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)   
+    with col7:
+        st.markdown(
+            f'<a href="mailto:jarihant130@gmail.com"><img src="data:image/png;base64,{b64encode(gmail).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
 
 with tab8:
-    txt2('Address', 'Flat No-S01, 2nd Floor, Plot No-16, Hansa Apartment-5, Ward No-38, Ashoka Garden, Bhopal, (M.P.) 462023')
-    txt2('WhatsApp', '[+91-9685790871](https://web.whatsapp.com/send?phone=919685790871)')
+    txt2('Address', ':round_pushpin: Flat No-S01, 2nd Floor, Plot No-16, Hansa Apartment-5, Ward No-38, Ashoka Garden, Bhopal, (M.P.) 462023')
+    txt2('WhatsApp', ':telephone_receiver:[+91-9685790871](https://web.whatsapp.com/send?phone=919685790871)')
 
