@@ -210,7 +210,7 @@ with tab7:
     linkedin = open('media/Linkedin.png', "rb").read()
     twitter = open('media/Twitter.png', "rb").read()
     gitHub = open('media/Github.png', "rb").read()
-    youtube = open('media/YouTube.png', "rb").read()
+#     youtube = open('media/YouTube.png', "rb").read()
     medium = open('media/Medium.png', "rb").read()
     telegram = open('media/Telegram.png', "rb").read()
     gmail = open('media/Gmail.png', "rb").read()
@@ -225,8 +225,8 @@ with tab7:
         st.markdown(
             f'<a href="https://www.linkedin.com/in/arihantjain130/"><img src="data:image/png;base64,{b64encode(gitHub).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
     with col4:
-        st.markdown(
-            f'<a href="https://www.youtube.com/channel/UCeC088dyJsXK_L1bCHZDcjA"><img src="data:image/png;base64,{b64encode(youtube).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
+#         st.markdown(
+#             f'<a href="https://www.youtube.com/channel/UCeC088dyJsXK_L1bCHZDcjA"><img src="data:image/png;base64,{b64encode(youtube).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
     with col5:
         st.markdown(
             f'<a href="https://jarihant130.medium.com/"><img src="data:image/png;base64,{b64encode(medium).decode()}" style="width:30px;height:30px;"></a>', unsafe_allow_html=True)
