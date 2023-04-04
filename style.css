@@ -10,12 +10,6 @@ h5 {
     text-align:center;
 }
 
-img {
-/*     margin-left: 17.2rem; */
-    max-width: 100%;
-  height: auto;
-  margin: auto;
-}
 
 #MainMenu {
     visibility: hidden;
