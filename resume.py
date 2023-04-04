@@ -203,13 +203,8 @@ with tab5:
     txt3('Model deployment', '`streamlit`')
 
 with tab6:
-    col1, col2 = st.columns([2, 1])
-    with col1:
-        st.write('Infosys Ltd.')
-        st.write('Aurionpro Solution Ltd.')
-    with col2:
-        st.write('[Insta Awards](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=share_link)')
-        st.write('[Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link)')
+    txt3('Infosys Ltd.', '[Insta Awards](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=share_link)')
+    txt3('Aurionpro Solution Ltd.', '[Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link)')
 
 with tab7:
     txt2('LinkedIn', 'https://www.linkedin.com/in/arihantjain130/')
