@@ -73,45 +73,49 @@ with tab2:
 ''')
 
 with tab3:
-    txt('**MxML and Market Data Developer**, State Bank of India, Aurionpro Pvt. Ltd., Mumbai',
-'JUL 22-Present')
-    st.markdown('''
-    - Led a team of four members in developing new workflows and addressing production issues in Murex for SBI client.
-    - Conducted thorough analysis of existing workflows and production issues, identifying pain points and areas for improvement.
-    - Developed detailed project plan, including scope, timelines, milestones, and deliverables, and ensured effective communication and collaboration among team members.
-    - Monitored project progress and made adjustments as needed to ensure on-time and within-budget completion.
-    - Successfully upgrading Murex from version 35 to 55, ensuring seamless integration with existing systems and minimizing downtime.
-    - Preparing test cases for testing new Murex environment.
-    - Got [Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link), and cash award (in first Quarter)
-    ''')
+    #############
+    ### Industry Projects
+    ############
+    with st.expander("Industry Project"):
+        txt('**MxML and Market Data Developer**, State Bank of India, Aurionpro Pvt. Ltd., Mumbai',
+    'JUL 22-Present')
+        st.markdown('''
+        - Led a team of four members in developing new workflows and addressing production issues in Murex for SBI client.
+        - Conducted thorough analysis of existing workflows and production issues, identifying pain points and areas for improvement.
+        - Developed detailed project plan, including scope, timelines, milestones, and deliverables, and ensured effective communication and collaboration among team members.
+        - Monitored project progress and made adjustments as needed to ensure on-time and within-budget completion.
+        - Successfully upgrading Murex from version 35 to 55, ensuring seamless integration with existing systems and minimizing downtime.
+        - Preparing test cases for testing new Murex environment.
+        - Got [Employee of the Quarter](https://drive.google.com/file/d/17_wnhZd9p4LPRg3HRbgw_UuxmFYR9oEl/view?usp=share_link), and cash award (in first Quarter)
+        ''')
 
-    txt('**Python Developer**, Intel Project (Content Management Team), Infosys Ltd., Pune',
-    'NOV 21-JUN 22')
-    st.markdown('''
-    - Working on professional content improvement for few of the Knowledge Articles and create an atuomation script.
-    - Our target is to provide the automation script for the existing content for professional and user friendly.
-    ''')
-    txt('**IT Automation Developer**, Intel Project (ESD Team) , Infosys Ltd., Pune',
-    'NOV 20-OCT 21')
-    st.markdown('''
-    - Intel API maintenance for core Intel employees and external Intel employees.
-    - Provide the automation scripts for the applications that are divided into domains based on impact area, e.g., s/w, payment, etc.
-    - Team handles the software domain.
-    - Got [Insta Award](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=sharing) and cash award (in 3 months)
-    ''')
-    txt('**Developer**, Data Science Python Project, Infosys Ltd., Pune',
-    'APR 20-NOV 20')
-    st.markdown('''
-    - Performing data analysis and feature engineering to create additional attributes which will be used in predictive models.
-    ''')
+        txt('**Python Developer**, Intel Project (Content Management Team), Infosys Ltd., Pune',
+        'NOV 21-JUN 22')
+        st.markdown('''
+        - Working on professional content improvement for few of the Knowledge Articles and create an atuomation script.
+        - Our target is to provide the automation script for the existing content for professional and user friendly.
+        ''')
+        txt('**IT Automation Developer**, Intel Project (ESD Team) , Infosys Ltd., Pune',
+        'NOV 20-OCT 21')
+        st.markdown('''
+        - Intel API maintenance for core Intel employees and external Intel employees.
+        - Provide the automation scripts for the applications that are divided into domains based on impact area, e.g., s/w, payment, etc.
+        - Team handles the software domain.
+        - Got [Insta Award](https://drive.google.com/file/d/1Iy_Qh9CwQrDpi24sdJri4vuaQaqcRnlU/view?usp=sharing) and cash award (in 3 months)
+        ''')
+        txt('**Developer**, Data Science Python Project, Infosys Ltd., Pune',
+        'APR 20-NOV 20')
+        st.markdown('''
+        - Performing data analysis and feature engineering to create additional attributes which will be used in predictive models.
+        ''')
 
-    txt('**System Engineer Trainee**, PackXprez, Infosys Ltd., Mysore',
-    'SEP 19 - FEB 20')
-    st.markdown('''
-    - Involved in developing backend using C#, ASP.Net, web API, ADO.Net , including Node JS & SQL Server.
-    - Involved in developing presentation logic and integration using Angular `6`.
-    - Involved in building a dynamic single page application using Angular `6`.
-    ''')
+        txt('**System Engineer Trainee**, PackXprez, Infosys Ltd., Mysore',
+        'SEP 19 - FEB 20')
+        st.markdown('''
+        - Involved in developing backend using C#, ASP.Net, web API, ADO.Net , including Node JS & SQL Server.
+        - Involved in developing presentation logic and integration using Angular `6`.
+        - Involved in building a dynamic single page application using Angular `6`.
+        ''')
     #############
     ### Internal Projects
     ############
