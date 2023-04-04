@@ -210,7 +210,7 @@ with tab7:
     linkedin = open('media/Linkedin.png', "rb").read()
     twitter = open('media/Twitter.png', "rb").read()
     gitHub = open('media/Github.png', "rb").read()
-#     youtube = open('media/YouTube.png', "rb").read()
+    youtube = open('media/YouTube.png', "rb").read()
     medium = open('media/Medium.png', "rb").read()
     telegram = open('media/Telegram.png', "rb").read()
     gmail = open('media/Gmail.png', "rb").read()
