@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from base64 import b64encode
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -7,6 +8,7 @@ with open("style.css") as f:
 # st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">', unsafe_allow_html=True)
+
 
 #####################
 # Custom function for printing text
@@ -47,10 +49,11 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('dp.png')
-st.image(image, 
-         width=100, 
-         use_column_width=True)
+image = open('dp.png', "rb").read()
+
+st.markdown(
+    f'<div style="display: flex; justify-content: center;"><img src="data:image/png;base64,{b64encode(image).decode()}" style="text-align:center; width:200px;height:200px;"></div>',
+    unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(["Summary", "Education", "Work Experience", "Certifications", "Skills", "Awards & Recognitions", "Social Media", "Contacts"])
 
