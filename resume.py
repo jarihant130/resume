@@ -80,9 +80,8 @@ with tab3:
         txt('**MxML and Market Data Developer**, State Bank of India, Aurionpro Pvt. Ltd., Mumbai',
     'JUL 22-Present')
         st.markdown('''
-        - Led a team of four members in developing new workflows and addressing production issues in Murex for SBI client.
+        - Part of four team members in developing new workflows and addressing production issues in Murex for SBI client.
         - Conducted thorough analysis of existing workflows and production issues, identifying pain points and areas for improvement.
-        - Developed detailed project plan, including scope, timelines, milestones, and deliverables, and ensured effective communication and collaboration among team members.
         - Monitored project progress and made adjustments as needed to ensure on-time and within-budget completion.
         - Successfully upgrading Murex from version 35 to 55, ensuring seamless integration with existing systems and minimizing downtime.
         - Preparing test cases for testing new Murex environment.
