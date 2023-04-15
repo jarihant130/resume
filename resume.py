@@ -2,8 +2,6 @@ import streamlit as st
 from PIL import Image
 from base64 import b64encode
 
-# st.set_page_config(page_title="Resume | Arihant Jain", page_icon="👨🏻‍💻", layout="wide", initial_sidebar_state="expanded")
-# st.set_page_config(page_title="Resume | Arihant Jain", page_icon=":man:", layout="wide", initial_sidebar_state="expanded")
 st.set_page_config(page_title="Resume | Arihant Jain", page_icon="👨‍💼", layout="wide", initial_sidebar_state="expanded")
 
 
