@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from base64 import b64encode
 
-st.set_page_config(page_title="Resume | Arihant Jain", page_icon=":male-office-worker:", layout="wide", initial_sidebar_state="auto")
+st.set_page_config(page_title=":male-office-worker: Resume | Arihant Jain", page_icon=":male-office-worker:", layout="wide", initial_sidebar_state="auto")
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
