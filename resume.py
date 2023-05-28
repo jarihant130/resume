@@ -61,7 +61,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(["Summary", "Education"
 
 with tab1:
     st.info('''
-- Results-oriented MxML and Market data developer with 3+ years of experience at Aurionpro Solution Ltd. 
+- Results-oriented MxML and Market data developer with 4 years of experience at Aurionpro Solution Ltd. 
 - Proficient in Murex, Python, Numpy, Pandas, Seaborn, Matplotlib, Scipy, Plotly, Selenium, HTML, CSS, Bootstrap, Angular `6`, Flask Framework (Basics), Database, and Eclipse IDE. 
 - Skilled in developing and implementing complex financial models and data analytics solutions. 
 - Proven ability to work collaboratively with cross-functional teams to deliver high-quality projects on time and within budget. 
