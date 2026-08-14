@@ -47,7 +47,7 @@ def txt4(a, b, c):
 #####################
 # Header 
 st.write('''
-# Arihant Jain, *Murex Consultant*
+# Arihant Jain, *Murex Senior Consultant*
 ##### *Resume* 
 ''')
 
